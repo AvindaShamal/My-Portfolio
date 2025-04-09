@@ -19,7 +19,7 @@ const Footer = () => {
           
           <div className="flex space-x-4 items-center">
             <a 
-              href="https://github.com" 
+              href="https://github.com/AvindaShamal/" 
               target="_blank" 
               rel="noreferrer" 
               className="hover:text-primary transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/avinda-shamal-ba016a217/" 
               target="_blank" 
               rel="noreferrer" 
               className="hover:text-primary transition-colors"
