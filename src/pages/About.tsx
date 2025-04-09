@@ -37,7 +37,7 @@ const About = () => {
               
               <div className="prose max-w-none">
                 <p className="text-lg mb-6">
-                  As anElectronics and Telecommunication Engineering undergraduate from the University of Moratuwa, I
+                  As an Electronics and Telecommunication Engineering undergraduate from the University of Moratuwa, I
                   amahighly motivated and driven individual with a deep passion for engineering and technology. I am
                   passionate about solving complex problems, optimizing performance, and creating seamless user
                   experiences through the harmonious integration of computer vision, machine learning, and the Internet of
@@ -78,9 +78,9 @@ const About = () => {
                     <div>
                       <h4 className="text-lg font-semibold">AI Engineering Intern</h4>
                       <p className="text-muted-foreground">Foode Labs</p>
-                      <p> ◦ Developed end-to-end AI applications using CIFAR-10 and OCR datasets, mastering TensorFlow/PyTorch workflows
-                          ◦ Implemented research paper techniques into production code and optimized existing codebases
-                          ◦ Currently building optimized AI agents using GPTEngineer framework</p>
+                      <p> Developed end-to-end AI applications using CIFAR-10 and OCR datasets, mastering TensorFlow/PyTorch workflows</p>
+                      <p> Implemented research paper techniques into production code and optimized existing codebases</p>
+                      <p> Currently building optimized AI agents using GPTEngineer framework</p>
                       <p className="text-sm text-muted-foreground">June 2023 - December 2023</p>
                     </div>
                     
@@ -114,13 +114,13 @@ const About = () => {
 
                     <div>
                       <h4 className="text-lg font-semibold">Logistic Committee - Mora Maths Society</h4>
-                      <p> Marketing Coordinator, responsible for promoting the good work of Spark branch via several platforms</p>
+                      <p> Committee Member, responsible for organizing events, managing resources and coordinating schedules</p>
                       <p className="text-sm text-muted-foreground">2022</p>
                     </div>
 
                     <div>
                       <h4 className="text-lg font-semibold">Financial Committee - Exmo 23'</h4>
-                      <p> Marketing Coordinator, responsible for promoting the good work of Spark branch via several platforms</p>
+                      <p> Committee Member, responsible for overseeing budgets, managing funds, and supporting strategic financial decisions</p>
                       <p className="text-sm text-muted-foreground">2022</p>
                     </div>
                   </div>
