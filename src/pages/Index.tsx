@@ -12,7 +12,7 @@ import { skills } from '@/data/skills';
 const Index = () => {
   const featuredProjects = projects.slice(0, 3);
   const featuredSkills = skills.filter(skill => 
-    ["Python", "TensorFlow", "PyTorch", "OpenCV", "C/C++", "Arduino"].includes(skill.name)
+    ["Python", "TensorFlow", "PyTorch", "OpenCV", "Altium", "SolidWorks"].includes(skill.name)
   );
 
   return (
@@ -49,7 +49,7 @@ const Index = () => {
                 
                 <div className="flex gap-4 ml-1">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/AvindaShamal/" 
                     target="_blank" 
                     rel="noreferrer"
                     aria-label="GitHub"
@@ -58,7 +58,7 @@ const Index = () => {
                     <Github size={24} />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/avinda-shamal-ba016a217/" 
                     target="_blank" 
                     rel="noreferrer"
                     aria-label="LinkedIn"
