@@ -58,7 +58,7 @@ const Contact = () => {
                 <h4 className="font-medium mb-3">Social Media</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/AvindaShamal/" 
                     target="_blank" 
                     rel="noreferrer"
                     className="hover:text-primary transition-colors"
@@ -67,7 +67,7 @@ const Contact = () => {
                     <Github size={28} />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/avinda-shamal-ba016a217/" 
                     target="_blank" 
                     rel="noreferrer"
                     className="hover:text-primary transition-colors"
