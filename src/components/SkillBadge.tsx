@@ -7,7 +7,7 @@ interface SkillBadgeProps {
   className?: string;
 }
 
-const SkillBadge: React.FC<SkillBadgeProps> = ({ name, iconSrc, className }) => {
+const   SkillBadge: React.FC<SkillBadgeProps> = ({ name, iconSrc, className }) => {
   return (
     <button
       className={cn(

@@ -69,21 +69,21 @@ const Skills = () => {
   key={index}
   className="bg-card rounded-lg shadow p-6 flex flex-col hover:shadow-lg transition-shadow"
 >
+  {cert.iconSrc && (
+    <img
+      src={cert.iconSrc}
+      alt={`${cert.issuer} logo`}
+      className="w-16 h-16 object-contain mx-auto mb-4"
+    />
+  )}
   <div className="flex items-start mb-4">
-    {cert.iconSrc && (
-      <img
-        src={cert.iconSrc}
-        alt={`${cert.issuer} logo`}
-        className="w-8 h-8 mr-3 rounded-sm object-contain"
-      />
-    )}
-    <div>
-      <h3 className="text-lg font-bold">{cert.name}</h3>
-      <p className="text-muted-foreground">{cert.issuer}</p>
-    </div>
+    <Award className="text-primary mr-3 flex-shrink-0" size={24} />
+    <h3 className="text-lg font-bold">{cert.name}</h3>
   </div>
+  <p className="text-muted-foreground">{cert.issuer}</p>
   <p className="text-sm text-muted-foreground mt-auto pt-2">{cert.date}</p>
 </a>
+
               ))}
             </div>
           </div>
