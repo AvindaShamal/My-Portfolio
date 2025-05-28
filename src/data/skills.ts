@@ -6,40 +6,40 @@ export interface SkillType {
 
 export const skills: SkillType[] = [
   // Programming Languages
-  { name: "Python", category: "Programming Languages", iconSrc: "/icons/python.svg" },
-  { name: "Java", category: "Programming Languages", iconSrc: "/icons/java.svg" },
-  { name: "C/C++", category: "Programming Languages", iconSrc: "/icons/cpp.svg" },
-  { name: "MATLAB", category: "Programming Languages", iconSrc: "/icons/matlab.svg" },
+  { name: "Python", category: "Programming Languages", iconSrc: "/icons/python.png" },
+  { name: "Java", category: "Programming Languages", iconSrc: "/icons/java.png" },
+  { name: "C/C++", category: "Programming Languages", iconSrc: "/icons/cpp.png" },
+  { name: "MATLAB", category: "Programming Languages", iconSrc: "/icons/matlab.png" },
 
   // ML Frameworks
-  { name: "TensorFlow", category: "ML Frameworks", iconSrc: "/icons/tensorflow.svg" },
-  { name: "PyTorch", category: "ML Frameworks", iconSrc: "/icons/pytorch.svg" },
-  { name: "Flask", category: "ML Frameworks", iconSrc: "/icons/flask.svg" },
-  { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.svg" },
-  { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.svg" },
+  { name: "TensorFlow", category: "ML Frameworks", iconSrc: "/icons/tensorflow.png" },
+  { name: "PyTorch", category: "ML Frameworks", iconSrc: "/icons/pytorch.png" },
+  { name: "Flask", category: "ML Frameworks", iconSrc: "/icons/flask.png" },
+  { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.png" },
+  { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.png" },
 
   // Libraries
-  { name: "Pandas", category: "Libraries", iconSrc: "/icons/pandas.svg" },
-  { name: "NumPy", category: "Libraries", iconSrc: "/icons/numpy.svg" },
-  { name: "OpenCV", category: "Libraries", iconSrc: "/icons/opencv.svg" },
-  { name: "torchvision", category: "Libraries", iconSrc: "/icons/torchvision.svg" },
-  { name: "Matplotlib", category: "Libraries", iconSrc: "/icons/matplotlib.svg" },
-  { name: "Scikit-Learn", category: "Libraries", iconSrc: "/icons/scikit-learn.svg" },
-  { name: "Scipy", category: "Libraries", iconSrc: "/icons/scipy.svg" },
-  { name: "Seaborn", category: "Libraries", iconSrc: "/icons/seaborn.svg" },
-  { name: "Datasets", category: "Libraries", iconSrc: "/icons/datasets.svg" },
-  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/easyocr.svg" },
-  { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.svg" },
+  { name: "Pandas", category: "Libraries", iconSrc: "/icons/pandas.png" },
+  { name: "NumPy", category: "Libraries", iconSrc: "/icons/numpy.png" },
+  { name: "OpenCV", category: "Libraries", iconSrc: "/icons/opencv.png" },
+  { name: "torchvision", category: "Libraries", iconSrc: "/icons/torchvision.png" },
+  { name: "Matplotlib", category: "Libraries", iconSrc: "/icons/matplotlib.png" },
+  { name: "Scikit-Learn", category: "Libraries", iconSrc: "/icons/scikit-learn.png" },
+  { name: "Scipy", category: "Libraries", iconSrc: "/icons/scipy.png" },
+  { name: "Seaborn", category: "Libraries", iconSrc: "/icons/seaborn.png" },
+  { name: "Datasets", category: "Libraries", iconSrc: "/icons/datasets.png" },
+  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/easyocr.png" },
+  { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.png" },
 
   // Tools & Platforms
-  { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.svg" },
-  { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.svg" },
-  { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.svg" },
-  { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.svg" },
-  { name: "Arduino", category: "Tools & Platforms", iconSrc: "/icons/arduino.svg" },
-  { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.svg" },
-  { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.svg" },
-  { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.svg" },
+  { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.png" },
+  { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.png" },
+  { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.png" },
+  { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.png" },
+  { name: "Arduino", category: "Tools & Platforms", iconSrc: "/icons/arduino.png" },
+  { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.png" },
+  { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.png" },
+  { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.png" },
 ];
 
 export const certifications = [
