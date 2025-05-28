@@ -46,21 +46,29 @@ export const certifications = [
   {
     name: "AI Agent Course",
     issuer: "HuggingFace",
-    date: "2025"
+    date: "2025",
+    iconSrc: "/icons/huggingface.svg",
+    url: "https://huggingface.co/learn/agents"
   },
   {
     name: "Machine Learning Specialization",
     issuer: "Stanford University & Coursera",
-    date: "2023-2024"
+    date: "2023-2024",
+    iconSrc: "/icons/coursera.svg",
+    url: "https://www.coursera.org/specializations/machine-learning-introduction"
   },
   {
     name: "Deep Learning Specialization",
     issuer: "deeplearning.ai",
-    date: "2024"
+    date: "2024",
+    iconSrc: "/icons/deeplearningai.svg",
+    url: "https://www.coursera.org/specializations/deep-learning"
   },
   {
     name: "Advanced Diploma in English",
     issuer: "British Council",
-    date: "2022"
+    date: "2022",
+    iconSrc: "/icons/britishcouncil.svg",
+    url: "https://www.britishcouncil.lk/english/courses-adults/advanced"
   }
 ];
