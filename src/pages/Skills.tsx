@@ -62,17 +62,28 @@ const Skills = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {certifications.map((cert, index) => (
-                <div 
-                  key={index}
-                  className="bg-card rounded-lg shadow p-6 flex flex-col"
-                >
-                  <div className="flex items-start mb-4">
-                    <Award className="text-primary mr-3 flex-shrink-0" size={24} />
-                    <h3 className="text-lg font-bold">{cert.name}</h3>
-                  </div>
-                  <p className="text-muted-foreground">{cert.issuer}</p>
-                  <p className="text-sm text-muted-foreground mt-auto pt-2">{cert.date}</p>
-                </div>
+                <a
+  href={cert.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  key={index}
+  className="bg-card rounded-lg shadow p-6 flex flex-col hover:shadow-lg transition-shadow"
+>
+  <div className="flex items-start mb-4">
+    {cert.iconSrc && (
+      <img
+        src={cert.iconSrc}
+        alt={`${cert.issuer} logo`}
+        className="w-8 h-8 mr-3 rounded-sm object-contain"
+      />
+    )}
+    <div>
+      <h3 className="text-lg font-bold">{cert.name}</h3>
+      <p className="text-muted-foreground">{cert.issuer}</p>
+    </div>
+  </div>
+  <p className="text-sm text-muted-foreground mt-auto pt-2">{cert.date}</p>
+</a>
               ))}
             </div>
           </div>
