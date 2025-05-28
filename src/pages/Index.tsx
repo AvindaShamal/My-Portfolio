@@ -72,7 +72,7 @@ const Index = () => {
             
             <div className="hidden lg:block relative animate-fade-in">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZ3JhbW1lcixjb2RlfHx8fHx8MTcxMjY4ODE3OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600" 
+                src="./profile.jpg" 
                 alt="Avinda Shamal"
                 className="rounded-lg shadow-lg w-full object-cover" 
               />
