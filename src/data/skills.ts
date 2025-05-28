@@ -15,31 +15,31 @@ export const skills: SkillType[] = [
   { name: "TensorFlow", category: "ML Frameworks", iconSrc: "/icons/tensorflow.png" },
   { name: "PyTorch", category: "ML Frameworks", iconSrc: "/icons/pytorch.png" },
   { name: "Flask", category: "ML Frameworks", iconSrc: "/icons/flask.png" },
-  { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.png" },
-  { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.png" },
+  { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.jpg" },
+  { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.svg" },
 
   // Libraries
   { name: "Pandas", category: "Libraries", iconSrc: "/icons/pandas.png" },
   { name: "NumPy", category: "Libraries", iconSrc: "/icons/numpy.png" },
   { name: "OpenCV", category: "Libraries", iconSrc: "/icons/opencv.png" },
-  { name: "torchvision", category: "Libraries", iconSrc: "/icons/torchvision.png" },
+  { name: "torchvision", category: "Libraries", iconSrc: "/icons/torchvision.jpg" },
   { name: "Matplotlib", category: "Libraries", iconSrc: "/icons/matplotlib.png" },
   { name: "Scikit-Learn", category: "Libraries", iconSrc: "/icons/scikit-learn.png" },
   { name: "Scipy", category: "Libraries", iconSrc: "/icons/scipy.png" },
-  { name: "Seaborn", category: "Libraries", iconSrc: "/icons/seaborn.png" },
+  { name: "Seaborn", category: "Libraries", iconSrc: "/icons/seaborn.svg" },
   { name: "Datasets", category: "Libraries", iconSrc: "/icons/datasets.png" },
-  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/easyocr.png" },
+  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/easyocr.jpg" },
   { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.png" },
 
   // Tools & Platforms
   { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.png" },
-  { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.png" },
+  { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.jpeg" },
   { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.png" },
   { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.png" },
   { name: "Arduino", category: "Tools & Platforms", iconSrc: "/icons/arduino.png" },
   { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.png" },
-  { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.png" },
-  { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.png" },
+  { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.jpg" },
+  { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.jpg" },
 ];
 
 export const certifications = [
