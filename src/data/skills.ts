@@ -34,7 +34,7 @@ export const skills: SkillType[] = [
   // Tools & Platforms
   { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.png" },
   { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.jpeg" },
-  { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.png" },
+  { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.jpg" },
   { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.png" },
   { name: "Arduino", category: "Tools & Platforms", iconSrc: "/icons/arduino.png" },
   { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.png" },
@@ -47,28 +47,28 @@ export const certifications = [
     name: "AI Agent Course",
     issuer: "HuggingFace",
     date: "2025",
-    iconSrc: "/icons/huggingface.svg",
-    url: "https://huggingface.co/learn/agents"
+    // iconSrc: "/icons/huggingface.svg",
+    // url: "https://huggingface.co/learn/agents"
   },
   {
     name: "Machine Learning Specialization",
     issuer: "Stanford University & Coursera",
     date: "2023-2024",
-    iconSrc: "/icons/coursera.svg",
-    url: "https://www.coursera.org/specializations/machine-learning-introduction"
+    // iconSrc: "/icons/coursera.svg",
+    // url: "https://www.coursera.org/specializations/machine-learning-introduction"
   },
   {
     name: "Deep Learning Specialization",
     issuer: "deeplearning.ai",
     date: "2024",
-    iconSrc: "/icons/deeplearningai.svg",
-    url: "https://www.coursera.org/specializations/deep-learning"
+    // iconSrc: "/icons/deeplearningai.svg",
+    // url: "https://www.coursera.org/specializations/deep-learning"
   },
   {
     name: "Advanced Diploma in English",
     issuer: "British Council",
     date: "2022",
-    iconSrc: "/icons/britishcouncil.svg",
-    url: "https://www.britishcouncil.lk/english/courses-adults/advanced"
+    // iconSrc: "/icons/britishcouncil.svg",
+    // url: "https://www.britishcouncil.lk/english/courses-adults/advanced"
   }
 ];

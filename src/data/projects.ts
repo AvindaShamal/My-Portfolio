@@ -37,7 +37,36 @@ export const projects: ProjectType[] = [
     technologies: ["PyTorch", "Computer Vision", "Semantic Segmentation"],
     github: "https://github.com/AvindaShamal/Benchmark-for-Semantic-Bridge-Damage-Segmentation.git",
     image: "https://images.unsplash.com/photo-1574103188526-4fabd2623804?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8YnJpZGdlfHx8fHx8MTcxMjY4ODA3MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600",
-    isOngoing: true,
     category: ["ML", "Computer Vision", "Research"]
-  }
+  },
+  {
+  "id": "sportsman-image-classification",
+  "title": "Sportsman’s Image Classification",
+  "description": "End-to-end ML project to classify images of sports celebrities. Used OpenCV for face and eye detection, wavelet transforms for feature engineering, and fine-tuned SVM, logistic regression, and random forest models via grid search.",
+  "technologies": ["Python", "OpenCV", "scikit-learn", "Machine Learning"],
+  "github": "https://github.com/AvindaShamal/Sportsman-Image-Classification",
+  "demo": "https://demo.com/",
+  "image": "https://images.unsplash.com/photo-1602526210374-0064f7b95cbb?fit=crop&w=600&q=80",
+  "category": ["ML", "Computer Vision"]
+},
+{
+  "id": "closed-loop-stepper",
+  "title": "Closed Loop Stepper Motor Driver",
+  "description": "Designed a closed loop stepper motor driver with real-time position feedback for enhanced accuracy. Integrated electromechanical control systems and implemented real-time adjustments using control theory principles.",
+  "technologies": ["Embedded Systems", "Control Theory", "C++", "Electronics"],
+  "github": "https://github.com/AvindaShamal/Closed-Loop-Stepper-Motor",
+  "demo": "https://demo.com/",
+  "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?fit=crop&w=600&q=80",
+  "category": ["Embedded", "Hardware"]
+},
+{
+  "id": "metal-detector",
+  "title": "Metal Detector",
+  "description": "Built a very low frequency metal detector operating at 55kHz, capable of detecting ferrous and non-ferrous metals up to 30cm depth. Real-time detection displayed on a blue LED screen.",
+  "technologies": ["Electronics", "Analog Circuits", "Signal Processing"],
+  "github": "https://github.com/AvindaShamal/VLF-Metal-Detector",
+  "demo": "https://demo.com/",
+  "image": "https://images.unsplash.com/photo-1610275882935-f25e077f4c0d?fit=crop&w=600&q=80",
+  "category": ["Hardware", "Electronics"]
+}
 ];
