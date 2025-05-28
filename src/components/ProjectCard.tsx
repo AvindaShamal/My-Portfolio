@@ -31,11 +31,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           alt={title} 
           className="w-full h-48 object-cover"
         />
-        {isOngoing && (
-          <span className="absolute top-2 right-2 bg-primary/80 text-white text-xs font-medium px-2 py-1 rounded">
-            Ongoing
-          </span>
-        )}
       </div>
       <div className="p-5">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
