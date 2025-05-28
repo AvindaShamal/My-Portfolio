@@ -7,11 +7,11 @@ interface SkillBadgeProps {
   className?: string;
 }
 
-const   SkillBadge: React.FC<SkillBadgeProps> = ({ name, iconSrc, className }) => {
+const SkillBadge: React.FC<SkillBadgeProps> = ({ name, iconSrc, className }) => {
   return (
     <button
       className={cn(
-        "inline-flex items-center gap-2 px-4 py-2 rounded-xl text-base font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transform transition-transform duration-200 hover:scale-105 shadow-sm border-2 border-primary focus:outline-none focus:ring-2 focus:ring-primary/50",
+        "inline-flex items-center gap-2 px-4 py-2 rounded-xl text-base font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transform transition-transform duration-200 hover:scale-105 shadow-sm",
         className
       )}
     >

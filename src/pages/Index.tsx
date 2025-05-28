@@ -8,6 +8,7 @@ import SkillBadge from '@/components/SkillBadge';
 import { ArrowDownToLine, ArrowRight, Github, Linkedin } from 'lucide-react';
 import { projects } from '@/data/projects';
 import { skills } from '@/data/skills';
+import SkillTiles from '@/components/SkillTile';
 
 const Index = () => {
   const featuredProjects = projects.slice(0, 3);
@@ -116,9 +117,10 @@ const Index = () => {
           
           <div className="flex flex-wrap justify-center gap-3">
             {featuredSkills.map((skill, index) => (
-              <SkillBadge 
+              <SkillTiles 
                 key={index}
                 name={skill.name}
+                iconSrc={skill.iconSrc}
               />
             ))}
           </div>
