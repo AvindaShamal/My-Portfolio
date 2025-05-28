@@ -44,6 +44,7 @@ const Skills = () => {
                     <SkillBadge 
                       key={index}
                       name={skill.name}
+                      iconSrc={skill.iconSrc}
                     />
                   ))}
                 </div>

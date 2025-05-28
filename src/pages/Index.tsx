@@ -67,10 +67,10 @@ const Index = () => {
                     <Linkedin size={24} />
                   </a>
                 </div>
-              </div>
+              </div>  
             </div>
             
-            <div className="hidden lg:block relative animate-fade-in">
+            <div className="hidden lg:block relative animate-fade-in p-4">
               <img 
                 src="./profile.jpg" 
                 alt="Avinda Shamal"
