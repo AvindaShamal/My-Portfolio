@@ -1,10 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
 import SectionHeading from '@/components/SectionHeading';
 import ProjectCard, { ProjectType } from '@/components/ProjectCard';
 import { projects } from '@/data/projects';
 import { Search, Filter } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const Projects = () => {
   const [filter, setFilter] = useState<string>("all");
