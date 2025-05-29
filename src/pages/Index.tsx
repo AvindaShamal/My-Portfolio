@@ -59,7 +59,7 @@ const Index = () => {
                     <Github size={24} />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/avinda-shamal-ba016a217/" 
+                    href="https://www.linkedin.com/in/avinda-shamal/" 
                     target="_blank" 
                     rel="noreferrer"
                     aria-label="LinkedIn"
