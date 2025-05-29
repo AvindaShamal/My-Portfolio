@@ -13,7 +13,7 @@ const About = () => {
             <div className="lg:col-span-1">
               <div className="sticky top-24">
                 <img 
-                  src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZ3JhbW1lcixzdHVkZW50fHx8fHx8MTcxMjY4ODI0NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
+                  src="/about.jpg"
                   alt="Avinda Shamal"
                   className="rounded-lg shadow-lg w-full object-cover mb-6"
                 />
