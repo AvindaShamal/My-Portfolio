@@ -55,14 +55,14 @@ export const certifications = [
     name: "Machine Learning Specialization",
     issuer: "Stanford University & Coursera",
     date: "2023-2024",
-    iconSrc: "/icons/coursera.svg",
+    iconSrc: "/icons/deeplearningai.jpg",
     url: "https://www.coursera.org/specializations/machine-learning-introduction"
   },
   {
     name: "Deep Learning Specialization",
     issuer: "deeplearning.ai",
     date: "2024",
-    iconSrc: "/icons/deeplearningai.svg",
+    iconSrc: "/icons/deeplearningai.jpg",
     url: "https://www.coursera.org/specializations/deep-learning"
   },
   {
