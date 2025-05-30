@@ -75,7 +75,7 @@ const Index = () => {
             <img 
               src="./profile.webp" 
               alt="Avinda Shamal"
-              className="rounded-xl shadow-lg w-full h-auto object-cover" // Changed from rounded-full to rounded-xl
+              className="rounded-xl shadow-lg w-3/4 mx-auto h-auto object-cover" 
             />
           </div>
           </div>
