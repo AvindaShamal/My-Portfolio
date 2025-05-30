@@ -71,13 +71,13 @@ const Index = () => {
               </div>   
             </div>
             
-            <div className="hidden lg:block relative animate-fade-in p-4 ">
-              <img 
-                src="./profile.jpg" 
-                alt="Avinda Shamal"
-                className="rounded-full shadow-lg w-full h-auto object-cover" 
-              />
-            </div>
+          <div className="hidden lg:block relative animate-fade-in p-4 ">
+            <img 
+              src="./profile.jpg" 
+              alt="Avinda Shamal"
+              className="rounded-xl shadow-lg w-full h-auto object-cover" // Changed from rounded-full to rounded-xl
+            />
+          </div>
           </div>
         </div>
       </section>
