@@ -75,7 +75,7 @@ const Index = () => {
               <img 
                 src="./profile.jpg" 
                 alt="Avinda Shamal"
-                className="rounded-full shadow-lg w-full object-cover" 
+                className="rounded-full shadow-lg w-full h-auto object-cover" 
               />
             </div>
           </div>
