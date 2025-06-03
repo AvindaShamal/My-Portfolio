@@ -25,11 +25,11 @@ export const skills: SkillType[] = [
   { name: "OpenCV", category: "Libraries", iconSrc: "/icons/opencv.png" },
   { name: "torchvision", category: "Libraries", iconSrc: "/icons/torchvision.jpg" },
   { name: "Matplotlib", category: "Libraries", iconSrc: "/icons/matplotlib.png" },
-  { name: "Scikit-Learn", category: "Libraries", iconSrc: "/icons/scikit-learn.png" },
+  { name: "Scikit-Learn", category: "Libraries", iconSrc: "/icons/scikitlearn.png" },
   { name: "Scipy", category: "Libraries", iconSrc: "/icons/scipy.png" },
   { name: "Seaborn", category: "Libraries", iconSrc: "/icons/seaborn.svg" },
   { name: "Datasets", category: "Libraries", iconSrc: "/icons/datasets.png" },
-  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/easyocr.jpg" },
+  { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/eacyocr.jpg" },
   { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.png" },
 
   // Tools & Platforms
