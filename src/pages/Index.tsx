@@ -29,6 +29,7 @@ const Index = () => {
                   text="Hey, I'm Avinda Shamal"
                   delay={120}
                   className="inline-block"
+                  highlightText="Avinda Shamal"
                 />
               </h1>
               <h2 className="text-2xl md:text-3xl mb-6 text-muted-foreground">

@@ -5,16 +5,19 @@ interface TypewriterTextProps {
   text: string;
   delay?: number;
   className?: string;
+  highlightText?: string;
 }
 
 const TypewriterText: React.FC<TypewriterTextProps> = ({ 
   text, 
   delay = 100, 
-  className = "" 
+  className = "",
+  highlightText = ""
 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
+  const [isComplete, setIsComplete] = useState(false);
 
   useEffect(() => {
     if (currentIndex < text.length) {
@@ -24,15 +27,19 @@ const TypewriterText: React.FC<TypewriterTextProps> = ({
       }, delay);
 
       return () => clearTimeout(timeout);
-    } else {
-      // Hide cursor after typing is complete
-      const timeout = setTimeout(() => {
-        setShowCursor(false);
-      }, 2000);
+    } else if (!isComplete) {
+      setIsComplete(true);
+      // After typing is complete, wait 5 seconds then restart
+      const restartTimeout = setTimeout(() => {
+        setDisplayedText('');
+        setCurrentIndex(0);
+        setIsComplete(false);
+        setShowCursor(true);
+      }, 5000);
 
-      return () => clearTimeout(timeout);
+      return () => clearTimeout(restartTimeout);
     }
-  }, [currentIndex, delay, text]);
+  }, [currentIndex, delay, text, isComplete]);
 
   useEffect(() => {
     // Cursor blink effect
@@ -43,9 +50,28 @@ const TypewriterText: React.FC<TypewriterTextProps> = ({
     return () => clearInterval(cursorInterval);
   }, []);
 
+  const renderTextWithHighlight = () => {
+    if (!highlightText || !displayedText.includes(highlightText)) {
+      return displayedText;
+    }
+
+    const parts = displayedText.split(highlightText);
+    return (
+      <>
+        {parts[0]}
+        {parts.length > 1 && (
+          <>
+            <span className="text-primary">{highlightText}</span>
+            {parts[1]}
+          </>
+        )}
+      </>
+    );
+  };
+
   return (
     <span className={className}>
-      {displayedText}
+      {renderTextWithHighlight()}
       {showCursor && (
         <span className="animate-pulse text-primary">|</span>
       )}
