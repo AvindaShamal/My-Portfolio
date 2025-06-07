@@ -5,6 +5,7 @@ import Layout from '@/components/Layout';
 import SectionHeading from '@/components/SectionHeading';
 import ProjectCard from '@/components/ProjectCard';
 import SkillBadge from '@/components/SkillBadge';
+import TypewriterText from '@/components/TypewriterText';
 import { ArrowDownToLine, ArrowRight, Github, Linkedin } from 'lucide-react';
 import { projects } from '@/data/projects';
 import { skills } from '@/data/skills';
@@ -24,7 +25,12 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-                Hey, I'm <span className="text-primary">Avinda Shamal</span>
+                <TypewriterText 
+                  text="Hey, I'm Avinda Shamal"
+                  delay={120}
+                  className="inline-block"
+                  highlightText="Avinda Shamal"
+                />
               </h1>
               <h2 className="text-2xl md:text-3xl mb-6 text-muted-foreground">
                 AI Engineering Student | Computer Vision & ML Enthusiast
