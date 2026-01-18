@@ -20,14 +20,14 @@ export const skills: SkillType[] = [
   { name: "PyTorch", category: "ML Frameworks", iconSrc: "/icons/pytorch.png" },
   { name: "Keras", category: "ML Frameworks", iconSrc: "/icons/keras.png" },
   { name: "Flask", category: "ML Frameworks", iconSrc: "/icons/flask.png" },
-  { name: "Django", category: "ML Frameworks", iconSrc: "/icons/django.png" },
   { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.jpg" },
   { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.svg" },
 
   // Web Frameworks
+  { name: "Django", category: "ML Frameworks", iconSrc: "/icons/django.png" },
+  { name: "Spring Boot", category: "Web Frameworks", iconSrc: "/icons/springboot.png" },
   { name: "React", category: "Web Frameworks", iconSrc: "/icons/react.png" },
   { name: "Node.js", category: "Web Frameworks", iconSrc: "/icons/nodejs.png" },
-  { name: "Express.js", category: "Web Frameworks", iconSrc: "/icons/express.png" },
 
   // Libraries
   { name: "Pandas", category: "Libraries", iconSrc: "/icons/pandas.png" },
@@ -43,14 +43,14 @@ export const skills: SkillType[] = [
   { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.png" },
 
   // Databases
-  { name: "MongoDB", category: "Databases", iconSrc: "/icons/mongodb.png" },
   { name: "PostgreSQL", category: "Databases", iconSrc: "/icons/postgresql.png" },
+  { name: "MongoDB", category: "Databases", iconSrc: "/icons/mongodb.png" },
   { name: "MySQL", category: "Databases", iconSrc: "/icons/mysql.png" },
 
   // Tools & Platforms
   { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.png" },
-  { name: "Docker", category: "Tools & Platforms", iconSrc: "/icons/docker.png" },
-  { name: "VS Code", category: "Tools & Platforms", iconSrc: "/icons/vscode.png" },
+  { name: "Docker", category: "Tools & Platforms", iconSrc: "/icons/docker.jpeg" },
+  { name: "VS Code", category: "Tools & Platforms", iconSrc: "/icons/vscode.jpeg" },
   { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.jpeg" },
   { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.jpg" },
   { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.png" },
@@ -58,7 +58,7 @@ export const skills: SkillType[] = [
   { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.png" },
   { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.jpg" },
   { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.jpg" },
-  { name: "Google Cloud Platform", category: "Tools & Platforms", iconSrc: "/icons/gcp.png" },
+  { name: "Azure", category: "Tools & Platforms", iconSrc: "/icons/azure.jpeg" },
 ];
 
 export const certifications = [
