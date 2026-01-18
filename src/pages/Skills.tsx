@@ -20,10 +20,10 @@ const Skills = () => {
   const orderedCategories = [
     "Programming Languages",
     "ML Frameworks",
-    "Web Frameworks",
     "Libraries",
+    "Tools & Platforms",
     "Databases",
-    "Tools & Platforms"
+    "Web Frameworks"
   ];
   
   return (
