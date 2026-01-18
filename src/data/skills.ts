@@ -10,14 +10,24 @@ export const skills: SkillType[] = [
   { name: "Python", category: "Programming Languages", iconSrc: "/icons/python.png" },
   { name: "Java", category: "Programming Languages", iconSrc: "/icons/java.png" },
   { name: "C/C++", category: "Programming Languages", iconSrc: "/icons/cpp.png" },
+  { name: "JavaScript", category: "Programming Languages", iconSrc: "/icons/javascript.png" },
+  { name: "TypeScript", category: "Programming Languages", iconSrc: "/icons/typescript.png" },
+  { name: "SQL", category: "Programming Languages", iconSrc: "/icons/sql.png" },
   { name: "MATLAB", category: "Programming Languages", iconSrc: "/icons/matlab.png" },
 
   // ML Frameworks
   { name: "TensorFlow", category: "ML Frameworks", iconSrc: "/icons/tensorflow.png" },
   { name: "PyTorch", category: "ML Frameworks", iconSrc: "/icons/pytorch.png" },
+  { name: "Keras", category: "ML Frameworks", iconSrc: "/icons/keras.png" },
   { name: "Flask", category: "ML Frameworks", iconSrc: "/icons/flask.png" },
+  { name: "Django", category: "ML Frameworks", iconSrc: "/icons/django.png" },
   { name: "LlamaIndex", category: "ML Frameworks", iconSrc: "/icons/llamaindex.jpg" },
   { name: "LangGraph", category: "ML Frameworks", iconSrc: "/icons/langgraph.svg" },
+
+  // Web Frameworks
+  { name: "React", category: "Web Frameworks", iconSrc: "/icons/react.png" },
+  { name: "Node.js", category: "Web Frameworks", iconSrc: "/icons/nodejs.png" },
+  { name: "Express.js", category: "Web Frameworks", iconSrc: "/icons/express.png" },
 
   // Libraries
   { name: "Pandas", category: "Libraries", iconSrc: "/icons/pandas.png" },
@@ -32,8 +42,15 @@ export const skills: SkillType[] = [
   { name: "EasyOCR", category: "Libraries", iconSrc: "/icons/eacyocr.jpg" },
   { name: "Transformers", category: "Libraries", iconSrc: "/icons/transformers.png" },
 
+  // Databases
+  { name: "MongoDB", category: "Databases", iconSrc: "/icons/mongodb.png" },
+  { name: "PostgreSQL", category: "Databases", iconSrc: "/icons/postgresql.png" },
+  { name: "MySQL", category: "Databases", iconSrc: "/icons/mysql.png" },
+
   // Tools & Platforms
   { name: "Git/ Github", category: "Tools & Platforms", iconSrc: "/icons/github.png" },
+  { name: "Docker", category: "Tools & Platforms", iconSrc: "/icons/docker.png" },
+  { name: "VS Code", category: "Tools & Platforms", iconSrc: "/icons/vscode.png" },
   { name: "Altium Designer", category: "Tools & Platforms", iconSrc: "/icons/altium.jpeg" },
   { name: "SolidWorks", category: "Tools & Platforms", iconSrc: "/icons/solidworks.jpg" },
   { name: "HuggingFace Hub", category: "Tools & Platforms", iconSrc: "/icons/huggingface.png" },
@@ -41,6 +58,7 @@ export const skills: SkillType[] = [
   { name: "Raspberry Pi", category: "Tools & Platforms", iconSrc: "/icons/raspberrypi.png" },
   { name: "Linux", category: "Tools & Platforms", iconSrc: "/icons/linux.jpg" },
   { name: "AWS", category: "Tools & Platforms", iconSrc: "/icons/aws.jpg" },
+  { name: "Google Cloud Platform", category: "Tools & Platforms", iconSrc: "/icons/gcp.png" },
 ];
 
 export const certifications = [

@@ -7,20 +7,20 @@ import { Search, Filter } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Projects = () => {
-  const [filter, setFilter] = useState<string>("all");
+  const [cvFilter, setCvFilter] = useState<string>("all");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [filteredProjects, setFilteredProjects] = useState<ProjectType[]>(projects);
   
-  // Get unique categories from projects
-  const categories = ["all", ...Array.from(new Set(projects.flatMap(project => project.category)))];
+  // Get CV-aligned categories from projects
+  const cvCategories = ["all", ...Array.from(new Set(projects.map(project => project.cvCategory)))];
   
   useEffect(() => {
     let filtered = projects;
     
     // Apply category filter
-    if (filter !== "all") {
+    if (cvFilter !== "all") {
       filtered = filtered.filter(project => 
-        project.category.includes(filter)
+        project.cvCategory === cvFilter
       );
     }
     
@@ -36,7 +36,7 @@ const Projects = () => {
     }
     
     setFilteredProjects(filtered);
-  }, [filter, searchTerm]);
+  }, [cvFilter, searchTerm]);
   
   return (
     <Layout>
@@ -65,20 +65,20 @@ const Projects = () => {
             {/* Filter Buttons */}
             <div className="flex items-center justify-center gap-2 flex-wrap">
               <Filter size={18} className="text-muted-foreground mr-2" />
-              {categories.map((category) => (
+              {cvCategories.map((category) => (
                 <button
                   key={category}
-                  onClick={() => setFilter(category)}
+                  onClick={() => setCvFilter(category)}
                   className={cn(
                     "px-4 py-2 rounded-full text-sm font-medium transition-all duration-200",
-                    filter === category
+                    cvFilter === category
                       ? "bg-primary text-primary-foreground shadow-md"
                       : "bg-secondary/60 hover:bg-secondary text-secondary-foreground hover:shadow-sm"
                   )}
                 >
-                  {category.charAt(0).toUpperCase() + category.slice(1)}
+                  {category === "all" ? "All Projects" : category}
                   <span className="ml-2 text-xs opacity-75">
-                    ({category === "all" ? projects.length : projects.filter(p => p.category.includes(category)).length})
+                    ({category === "all" ? projects.length : projects.filter(p => p.cvCategory === category).length})
                   </span>
                 </button>
               ))}
@@ -109,7 +109,7 @@ const Projects = () => {
                   Clear Search
                 </button>
                 <button
-                  onClick={() => setFilter("all")}
+                  onClick={() => setCvFilter("all")}
                   className="btn btn-primary"
                 >
                   Show All Projects

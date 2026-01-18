@@ -13,6 +13,7 @@ export interface ProjectType {
   demo?: string;
   image: string;
   isOngoing?: boolean;
+  cvCategory: string;
   category: string[];
 }
 
@@ -21,7 +22,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  const { title, description, technologies, github, demo, image, isOngoing } = project;
+  const { title, description, technologies, github, demo, image, isOngoing, cvCategory } = project;
   
   return (
     <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
@@ -42,6 +43,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </div>
       
       <div className="p-6">
+        <Badge variant="outline" className="mb-3 text-xs font-semibold uppercase tracking-wide">
+          {cvCategory}
+        </Badge>
         <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
           {title}
         </h3>
