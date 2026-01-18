@@ -79,7 +79,7 @@ const Index = () => {
             
           <div className="hidden lg:block relative animate-fade-in p-4 ">
             <img 
-              src="./profile.webp" 
+              src="./profile2.JPG" 
               alt="Avinda Shamal"
               className="rounded-xl shadow-lg w-3/4 mx-auto h-auto object-cover" 
             />

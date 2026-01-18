@@ -55,8 +55,8 @@ const About = () => {
                     <div>
                       <h4 className="text-lg font-semibold">University of Moratuwa</h4>
                       <p className="text-muted-foreground">B.Sc. Engineering (Hons) in Electronic and Telecommunication Engineering</p>
-                      <p>CGPA: 3.68/4.0</p>
-                      <p className="text-sm text-muted-foreground">2022 - Present</p>
+                      <p>CGPA: 3.73/4.0</p>
+                      <p className="text-sm text-muted-foreground">2022 May - Present</p>
                     </div>
                     
                     <div>
@@ -78,10 +78,12 @@ const About = () => {
                     <div>
                       <h4 className="text-lg font-semibold">AI Engineering Intern</h4>
                       <p className="text-muted-foreground">Foode Labs</p>
-                      <p> Developed end-to-end AI applications using CIFAR-10 and OCR datasets, mastering TensorFlow/PyTorch workflows</p>
-                      <p> Implemented research paper techniques into production code and optimized existing codebases</p>
-                      <p> Currently building optimized AI agents using GPTEngineer framework</p>
-                      <p className="text-sm text-muted-foreground">June 2023 - December 2023</p>
+                      <p> Developed and deployed end-to-end AI applications with a focus on secure, reliable, and scalable pipelines, using PyTorch/TensorFlow and GitHub Actions.</p>
+                      <p> Built an OCR pipeline using CRAFT (text detection) and CRNN (text recognition) models</p>
+                      <p> Implemented research paper techniques into production code and optimized existing codebases(GPTEngineer)</p>
+                      <p> Project 1: A client project related to a coffee company</p>
+                      <p> Project 2: An internal project to generalize image similarity features</p>
+                      <p className="text-sm text-muted-foreground">December 2024 - May 2025</p>
                     </div>
                     
                     <div>
@@ -101,27 +103,27 @@ const About = () => {
                   
                   <div className="ml-10 space-y-4">
                     <div>
-                      <h4 className="text-lg font-semibold">IEEE Student Branch</h4>
-                      <p>Assistance Head of Events, responsible for organizing technical workshops and competitions.</p>
-                      <p className="text-sm text-muted-foreground">2021 - Present</p>
-                    </div>
-                    
-                    <div>
                       <h4 className="text-lg font-semibold">SPARK Branch - E-club</h4>
                       <p> Marketing Coordinator, responsible for promoting the good work of Spark branch via several platforms</p>
-                      <p className="text-sm text-muted-foreground">2022</p>
+                      <p className="text-sm text-muted-foreground">2024 - Present</p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-lg font-semibold">IEEE Student Branch</h4>
+                      <p>Assistance Head of Events, responsible for organizing technical workshops and competitions.</p>
+                      <p className="text-sm text-muted-foreground">2025 - Present</p>
                     </div>
 
                     <div>
                       <h4 className="text-lg font-semibold">Logistic Committee - Mora Maths Society</h4>
                       <p> Committee Member, responsible for organizing events, managing resources and coordinating schedules</p>
-                      <p className="text-sm text-muted-foreground">2022</p>
+                      <p className="text-sm text-muted-foreground">2023 - 2024</p>
                     </div>
 
                     <div>
                       <h4 className="text-lg font-semibold">Financial Committee - Exmo 23'</h4>
                       <p> Committee Member, responsible for overseeing budgets, managing funds, and supporting strategic financial decisions</p>
-                      <p className="text-sm text-muted-foreground">2022</p>
+                      <p className="text-sm text-muted-foreground">2023</p>
                     </div>
                   </div>
                 </div>
