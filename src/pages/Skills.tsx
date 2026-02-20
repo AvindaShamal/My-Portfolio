@@ -39,7 +39,7 @@ const Skills = () => {
           {/* Skills Sections */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
             {orderedCategories.map((category) => (
-              <div key={category} className="bg-card rounded-lg shadow p-6">
+              <div key={category} className="bg-card rounded-lg shadow p-6 card-glow">
                 <h3 className="text-xl font-bold mb-4">{category}</h3>
                 <div className="flex flex-wrap gap-2">
                   {groupedSkills[category]?.map((skill, index) => (
@@ -69,7 +69,7 @@ const Skills = () => {
   target="_blank"
   rel="noopener noreferrer"
   key={index}
-  className="bg-card rounded-lg shadow p-6 flex flex-col hover:shadow-lg transition-shadow"
+  className="bg-card rounded-lg shadow p-6 flex flex-col hover:shadow-lg transition-shadow card-glow"
 >
   {cert.iconSrc && (
     <img
@@ -99,7 +99,7 @@ const Skills = () => {
             />
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow card-glow">
                 <h3 className="text-lg font-bold mb-3">Machine Learning</h3>
                 <p className="text-muted-foreground">
                   Deep learning, neural networks, supervised and unsupervised learning algorithms, 
@@ -107,7 +107,7 @@ const Skills = () => {
                 </p>
               </div>
               
-              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow card-glow">
                 <h3 className="text-lg font-bold mb-3">Computer Vision</h3>
                 <p className="text-muted-foreground">
                   Image classification, object detection, semantic segmentation, 
@@ -115,7 +115,7 @@ const Skills = () => {
                 </p>
               </div>
               
-              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+              <div className="bg-card rounded-lg shadow p-6 hover:shadow-lg transition-shadow card-glow">
                 <h3 className="text-lg font-bold mb-3">IoT & Embedded Systems</h3>
                 <p className="text-muted-foreground">
                   Sensor networks, edge AI, embedded programming, hardware-software integration,
