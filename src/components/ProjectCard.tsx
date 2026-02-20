@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const { title, description, technologies, github, demo, image, isOngoing, cvCategory } = project;
   
   return (
-    <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+    <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 card-glow">
       <div className="relative overflow-hidden">
         <img 
           src={image} 
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         />
         {isOngoing && (
           <div className="absolute top-3 left-3">
-            <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 border-yellow-300">
+            <Badge variant="secondary" className="bg-yellow-900/60 text-yellow-300 border-yellow-600">
               Ongoing
             </Badge>
           </div>

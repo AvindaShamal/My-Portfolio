@@ -20,7 +20,10 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-secondary to-background py-16 md:py-24">
+      <section className="relative py-16 md:py-24 overflow-hidden">
+        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[hsl(240,60%,12%)] via-background to-background" />
+        <div className="absolute -top-32 -left-32 w-[480px] h-[480px] rounded-full bg-primary/10 blur-3xl -z-10" />
+        <div className="absolute -bottom-32 -right-32 w-[400px] h-[400px] rounded-full bg-accent/10 blur-3xl -z-10" />
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="animate-fade-in">
@@ -113,7 +116,7 @@ const Index = () => {
       </section>
       
       {/* Skills Overview Section */}
-      <section className="section bg-secondary">
+      <section className="section section-dark">
         <div className="container-custom">
           <SectionHeading
             title="Skills Overview"

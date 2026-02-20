@@ -79,7 +79,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="bg-card rounded-lg shadow p-6">
+            <div className="bg-card rounded-lg shadow p-6 card-glow">
               <h3 className="text-xl font-bold mb-6">Send Me a Message</h3>
               <ContactForm />
             </div>
